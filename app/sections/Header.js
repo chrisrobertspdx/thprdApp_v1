@@ -14,7 +14,7 @@ export class Header extends React.Component {
   }
 
   render() {
-    let display = this.state.isLoggedIn ? 'Sample User' : this.props.message;
+    let display = this.state.isLoggedIn ? 'Chris Roberts' : this.props.message;
     return (
       <View style={styles.headStyle}>
         <Image style={styles.logoStyle}

@@ -7,6 +7,11 @@ export class Contact extends React.Component {
     header: null
   }
 
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+
   render() {
     return (
       <View style={styles.container}>

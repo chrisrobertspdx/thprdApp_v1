@@ -32,6 +32,11 @@ export class Menu extends React.Component {
             <Text style={styles.buttonText}>ABOUT</Text>
           </TouchableOpacity>
         </View>
+        <View style={styles.buttonRow}>
+          <TouchableOpacity style={styles.buttonStylesAlt} onPress={()=>this.props.navigate('Card')}>
+            <Text style={styles.buttonText}>THPRD ID CARD</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }
@@ -40,7 +45,7 @@ export class Menu extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex:6,
+    flex:8,
     backgroundColor: '#005EAD'
   },
   buttonRow: {
@@ -54,6 +59,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#005EAD',
     width: '50%',
     height: '50%',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  buttonStylesAlt: {
+    backgroundColor: '#0D9648',
+    width: '100%',
+    height: '100%',
     justifyContent: 'center',
     alignItems: 'center'
   },

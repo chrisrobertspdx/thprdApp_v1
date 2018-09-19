@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home } from './app/views/Home.js';
 import { Contact } from './app/views/Contact.js';
+import { Card } from './app/views/Card.js';
 import { createStackNavigator } from 'react-navigation';
 
 const MyRoutes = createStackNavigator( {
@@ -9,6 +10,9 @@ const MyRoutes = createStackNavigator( {
   },
   Contact: {
     screen: Contact
+  },
+  Card: {
+    screen: Card
   }
 },
   {
