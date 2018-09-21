@@ -17,7 +17,7 @@ export class Contact extends React.Component {
       <View style={styles.container}>
         <Header message = 'Press to Login' />
         <Text style={{flex: 8}}>Introduction to Contact</Text>
-        <Text style={{flex: 6}}>More Contact form will go here</Text>
+        <Text style={{flex: 8}}>More Contact form will go here</Text>
       </View>
     )
   }

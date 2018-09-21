@@ -33,7 +33,8 @@ export class Menu extends React.Component {
           </TouchableOpacity>
         </View>
         <View style={styles.buttonRow}>
-          <TouchableOpacity style={styles.buttonStylesAlt} onPress={()=>this.props.navigate('Card')}>
+          <TouchableOpacity style={styles.buttonStylesAlt} 
+                            onPress={()=>this.props.navigate('Card',{name: 'Hegel Roberts'})}>
             <Text style={styles.buttonText}>THPRD ID CARD</Text>
           </TouchableOpacity>
         </View>

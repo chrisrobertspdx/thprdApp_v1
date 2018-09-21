@@ -29,10 +29,11 @@ export class Header extends React.Component {
 
 const styles = StyleSheet.create({
   headStyle: {
-    flex: 1,
+    flex: 6 / 5 ,
     flexDirection: 'row',
     paddingTop: 30,
     paddingRight: 10,
+    paddingBottom: 5,
     backgroundColor: Platform.OS === 'android' ? '#005EAD' : '#005EAD',
     borderBottomWidth: 2,
     borderColor: '#000000'
